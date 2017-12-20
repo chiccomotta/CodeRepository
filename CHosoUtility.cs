@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Repower.LeMA.CHoso.Infrastructure
+namespace MyProject.Infrastructure
 {
     public sealed class CHosoUtility : ICHosoUtility
     {

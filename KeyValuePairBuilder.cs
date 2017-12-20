@@ -15,7 +15,7 @@ namespace MyProject.Infrastructure
         private readonly List<KeyValuePair<string, string>> KeyValuePairs = new List<KeyValuePair<string, string>>();
 
 
-        public CHosoUtility(IHttpContextAccessor contextAccessor)
+        public KeyValuePairBuilder(IHttpContextAccessor contextAccessor)
         {
             this.ContextAccessor = contextAccessor;           
         }

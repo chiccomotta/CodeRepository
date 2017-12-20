@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MyProject.Infrastructure
 {
-    public sealed class CHosoUtility : ICHosoUtility
+    public sealed class CHosoUtility
     {
         private readonly IHttpContextAccessor ContextAccessor;
         private readonly List<KeyValuePair<string, string>> KeyValuePairs = new List<KeyValuePair<string, string>>();

@@ -10,6 +10,7 @@ namespace Repower.LeMA.API.Filters
 {
     /// <summary>
     /// Pattern per inserire le dipendenze in un filter implementato come Attributo
+    /// vedi ASP.NET Core in Action (Manning) pagina 402
     /// </summary>
     public class EnsureRecipeExistsAttribute : TypeFilterAttribute
     {

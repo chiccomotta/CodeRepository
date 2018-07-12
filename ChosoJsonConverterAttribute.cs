@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace API.Filters
 {
     /// <summary>
-    /// Filtro per formattare il json di risposta secondo lo standard di Choso
+    /// Filtro per formattare il json di risposta secondo lo standard di XXX
     /// </summary>
     public class ChosoJsonConverterAttribute : TypeFilterAttribute
     {
@@ -62,7 +62,7 @@ namespace API.Filters
                 if (string.IsNullOrEmpty(userAgent))
                     return false;
 
-                return userAgent == "user-aget-name";
+                return userAgent == "user-agent-name";
             }
         }
     }

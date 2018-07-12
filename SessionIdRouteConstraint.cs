@@ -1,12 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
-using Repower.LeMA.Common.Types;
+using Common.Types;
 using System.Diagnostics;
 
-namespace Repower.LeMA.API.Filters
+namespace API.Filters
 {
     /// <summary>
-    /// Check session Id se un intero oppure un RepowerCode formalmente valido
+    /// Check session Id se un intero oppure un Code formalmente valido
     /// </summary>
     public class SessionIdRouteConstraint : IRouteConstraint
     {
@@ -17,7 +17,7 @@ namespace Repower.LeMA.API.Filters
             if (int.TryParse(id, out int intValue))
                 return true;
 
-            if (RepowerCode.TryParse(id, out RepowerCode repowerCode))
+            if (Code.TryParse(id, out Code code))
                 return true;
 
             return false;            

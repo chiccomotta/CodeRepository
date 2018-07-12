@@ -4,12 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Routing;
-using Repower.LeMA.Common.Exceptions;
-using Repower.LeMA.Common.Extensions;
-using Repower.LeMA.Common.Models;
-using Repower.LeMA.Common.Utils;
+using Common.Exceptions;
+using Common.Extensions;
+using Common.Models;
+using Common.Utils;
 
-namespace Repower.LeMA.API.Filters
+namespace API.Filters
 {
     public class FileKindValidatorAttribute : ActionFilterAttribute
     {

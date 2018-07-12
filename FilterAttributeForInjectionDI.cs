@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Configuration;
 
-namespace Repower.LeMA.API.Filters
+namespace API.Filters
 {
     /// <summary>
     /// Pattern per inserire le dipendenze in un filter implementato come Attributo

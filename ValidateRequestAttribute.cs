@@ -1,13 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
-using Repower.LeMA.API.Models.Responses;
+using API.Models.Responses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Repower.LeMA.API.Filters
+namespace API.Filters
 {
     public class ValidateRequestAttribute: ActionFilterAttribute
     {

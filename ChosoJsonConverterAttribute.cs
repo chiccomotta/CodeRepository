@@ -6,7 +6,7 @@ using Newtonsoft.Json.Serialization;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Repower.LeMA.API.Filters
+namespace API.Filters
 {
     /// <summary>
     /// Filtro per formattare il json di risposta secondo lo standard di Choso
@@ -30,7 +30,7 @@ namespace Repower.LeMA.API.Filters
             {
                 dynamic originResult = context.Result;
 
-                // Se mi chiama Choso cambio name strategy
+                // Se mi chiama XXX cambio name strategy
                 if (IsChosoCalling())
                 {
                     JsonSerializerSettings jsonSerializerSettings = new JsonSerializerSettings
@@ -62,7 +62,7 @@ namespace Repower.LeMA.API.Filters
                 if (string.IsNullOrEmpty(userAgent))
                     return false;
 
-                return userAgent == "repower-choso";
+                return userAgent == "user-aget-name";
             }
         }
     }

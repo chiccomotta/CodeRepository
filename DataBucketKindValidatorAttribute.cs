@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Routing;
-using Repower.LeMA.Common.Models;
+using Common.Models;
 using System;
-using Repower.LeMA.Common.Exceptions;
+using Common.Exceptions;
 
-namespace Repower.LeMA.API.Filters
+namespace API.Filters
 {
     public class DataBucketKindValidatorAttribute : ActionFilterAttribute
     {

@@ -1,11 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
-using Repower.LeMA.API.Models.Responses;
+using API.Models.Responses;
 using System;
-using Repower.LeMA.Common.Exceptions;
+using Common.Exceptions;
 
-namespace Repower.LeMA.API.Filters
+namespace API.Filters
 {
     /// <summary>
     /// This filters all unhandled exceptions and provide a conformant JSON response with a 500 http status code

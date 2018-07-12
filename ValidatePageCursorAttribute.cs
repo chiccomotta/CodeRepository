@@ -1,13 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Repower.LeMA.API.Extensions;
-using Repower.LeMA.API.Properties;
-using Repower.LeMA.Common.Exceptions;
-using Repower.LeMA.Common.Extensions;
+using API.Extensions;
+using API.Properties;
+using Common.Exceptions;
+using Common.Extensions;
 using System;
 
-namespace Repower.LeMA.API.Filters
+namespace API.Filters
 {
     /// <summary>
     /// An action decorated requires the presence of page cursor
